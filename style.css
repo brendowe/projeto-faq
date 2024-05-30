@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(assets/fonts/WorkSans-VariableFont_wght.ttf), url(assets/fonts/WorkSans-Italic-VariableFont_wght.ttf);
+}
+
+
+body {
+    background-image: url(assets/images/background-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(225, 194, 253);      
+    display: flex;      
+    justify-content: center;
+    align-items: center;
+    height: 98vh;  
+    width: 98vw;  
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Work Sans';
+}
+
+main {    
+    background-color: white;
+    border-radius: 8px;
+    max-width: 350px;
+    padding: 15px 0px 15px 0px;
+    max-height: 700px;
+    margin: auto;
+}
+
+#estrela {
+    height: 25px;
+    padding-right: 20px;
+}
+
+h1 {
+    padding: 20px;
+    font-weight: bolder;
+    margin: 0;    
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+    margin: 0px;
+}
+
+hr {
+    width: 90%;    
+    opacity: 30%;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 20px ;
+}
+
+p {
+    display: none;
+    margin: 20px;
+    color: rgb(201, 164, 236);
+}
+
+.perguntas {
+    display: flex;
+    flex: row;
+}
+
+button {
+    margin-left: auto;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 20px;
+    background-color: transparent;
+    border-color: transparent;
+}
