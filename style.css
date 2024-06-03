@@ -24,10 +24,11 @@ body {
 main {    
     background-color: white;
     border-radius: 8px;
-    max-width: 350px;
+    max-width: 600px;
     padding: 15px 0px 15px 0px;
     max-height: 700px;
     margin: auto;
+    margin: 20px;
 }
 
 #estrela {
