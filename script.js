@@ -29,7 +29,7 @@ b3.addEventListener('click', function () {
     p4.style.display = 'none';
 
     extra1.src = "assets/images/icon-plus.svg";
-    extra2.src = "assets/images/icon-minus.svg"
+    extra2.src = "assets/images/icon-plus.svg";
     extra3.src = "assets/images/icon-minus.svg"
     extra4.src = "assets/images/icon-plus.svg";
     
@@ -40,10 +40,9 @@ b4.addEventListener('click', function () {
     p2.style.display = 'none';
     p3.style.display = 'none';
     p4.style.display = 'block';
-    p4.style.transition = '1s';
 
     extra1.src = "assets/images/icon-plus.svg";
-    extra2.src = "assets/images/icon-minus.svg"
+    extra2.src = "assets/images/icon-plus.svg";
     extra3.src = "assets/images/icon-plus.svg";
     extra4.src = "assets/images/icon-minus.svg";
 })
