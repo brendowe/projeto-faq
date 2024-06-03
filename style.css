@@ -63,6 +63,10 @@ h2 {
     margin: 20px ;
 }
 
+h2:hover {
+    color: blueviolet;
+}
+
 p {
     display: none;
     margin: 20px;
